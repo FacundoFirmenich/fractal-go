@@ -1,0 +1,19 @@
+{
+  "title": "FractalGo: reproducible topological diagnostics / Diagnósticos topológicos reproducibles",
+  "description": "Bilingual software for finite-graph excursion diagnostics, conditional GP controls and reconstructed Cassini residuals. Software bilingüe de diagnóstico por excursiones en grafos finitos, controles GP condicionados y residuos reconstruidos de Cassini.",
+  "creators": [
+    {
+      "name": "Firmenich, Facundo",
+      "orcid": "0009-0002-6578-3811"
+    }
+  ],
+  "keywords": [
+    "topological diagnostics",
+    "Gaussian processes",
+    "reproducibility",
+    "Cassini",
+    "FractalGo"
+  ],
+  "upload_type": "software",
+  "version": "0.1.0"
+}

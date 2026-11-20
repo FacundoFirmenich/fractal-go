@@ -1,0 +1,80 @@
+[
+  {
+    "path": "research/fractalgo/core.py",
+    "sha256": "379d76cb79918eaf86a4fad6dbad08e9e069baab0cd0889e1bb4f13ecd2a437e",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/fractalgo/test_core.py",
+    "sha256": "75397e28d03abde989062bbc1d0bce162c07917b3e3b56040422410cbe005e05",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/fractalgo/run_cases.py",
+    "sha256": "f8dfbaac65bfee2122bb42422513bc7a62746f2c9a480e17447daf40a31fab6e",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/fractalgo/figures.py",
+    "sha256": "be7267fe84b43313849af3c8a8ebffafb792fa408fe8e451d826a927c29a666e",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/fractalgo/CONTRACT_ES.md",
+    "sha256": "acaca1ad2bab8b8df150d214112f1df44e0e039ecbab3d362013cd8b9f85ceee",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/fractalgo/CONTRACT_EN.md",
+    "sha256": "9d0bc5ab72419fb2b0f8b786d045031b99450374fafb6c9f59756156949534fe",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "research/revision_v17/cassini.py",
+    "sha256": "be91f31878b0c9fe74e8b7bd3581d3163bc0fdcee3904b796b3f5d6e2ac1f898",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "gravitas_si/inference.py",
+    "sha256": "52829d8aef77ea594c925c21ccec0518ce5a4abdaeafe6c7766f5c52042ab83e",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "analyses/gp/code/gp_covarianza_cassini.py",
+    "sha256": "cdecf76a3ce035cf9bf27e17ab13e8ee30f9b856a16b43f17b9a68ad22678bf2",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz",
+    "sha256": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "analyses/gp/sources/cassini/contraste_robusto_pesos.npz",
+    "sha256": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "analyses/gp/results/gp_emulator.json",
+    "sha256": "ed372e040e836deb207700774ce1cd553935655fe084b36e73f6462ab4949fe7",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  },
+  {
+    "path": "LICENSES.md",
+    "sha256": "7a6283164e8e010c486b47a046839ca9a3b0bb1d3aeb6e004ca97e880a2955b6",
+    "source_commit": "e8865c05cb30dc3179f16fb544483337ad6c2e10",
+    "source_repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+  }
+]

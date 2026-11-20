@@ -1,0 +1,49 @@
+{
+  "mode": "all",
+  "python": "3.13.5",
+  "inputs_sha256": {
+    "launch.py": "490a3ed3163f6cbf046d1a6d9c24b3ada1aab030edacc4b599979cd9d1900cef",
+    "run.py": "85fa3dd8e87aedf6612f6bbc4fece1137bcfee1abbac545356c54d55cfad1d81",
+    "app.py": "e30efa138610450ab454a1f5a8039745b506348c912a49eae1cdf91050f7e272",
+    "gravitas_si/inference.py": "52829d8aef77ea594c925c21ccec0518ce5a4abdaeafe6c7766f5c52042ab83e",
+    "tools/build_notebooks.py": "e4f9ae21c8095a815b564d5d10547949983c87e4500bf5aec6ab5197c0e61dad",
+    "tools/render_results.py": "b49f4936c18c658b5f32a0ab77bf1775720f6e72cadb05718ac4403665d9deb1",
+    "tools/test_ui.py": "19d08df15b43a4e73caa3c23f905ef7e51c137acb7761b31dc8465d89d36ad04",
+    "analyses/gp/code/gp_covarianza_cassini.py": "cdecf76a3ce035cf9bf27e17ab13e8ee30f9b856a16b43f17b9a68ad22678bf2",
+    "analyses/gp/results/gp_emulator.json": "ed372e040e836deb207700774ce1cd553935655fe084b36e73f6462ab4949fe7",
+    "analyses/gp/sources/cassini/contraste_robusto_pesos.npz": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481",
+    "analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c",
+    "research/revision_v17/cassini.py": "be91f31878b0c9fe74e8b7bd3581d3163bc0fdcee3904b796b3f5d6e2ac1f898",
+    "research/fractalgo/run_cases.py": "f8dfbaac65bfee2122bb42422513bc7a62746f2c9a480e17447daf40a31fab6e",
+    "research/fractalgo/core.py": "379d76cb79918eaf86a4fad6dbad08e9e069baab0cd0889e1bb4f13ecd2a437e",
+    "research/fractalgo/figures.py": "be7267fe84b43313849af3c8a8ebffafb792fa408fe8e451d826a927c29a666e",
+    "research/fractalgo/test_core.py": "75397e28d03abde989062bbc1d0bce162c07917b3e3b56040422410cbe005e05"
+  },
+  "inputs_unchanged": true,
+  "commands": [
+    {
+      "script": "research/fractalgo/test_core.py",
+      "exit_code": 0,
+      "seconds": 0.34180593490600586
+    },
+    {
+      "script": "research/fractalgo/run_cases.py",
+      "exit_code": 0,
+      "seconds": 23.98324728012085
+    },
+    {
+      "script": "research/fractalgo/figures.py",
+      "exit_code": 0,
+      "seconds": 1.8269615173339844
+    },
+    {
+      "script": "tools/render_results.py",
+      "exit_code": 0,
+      "seconds": 0.023142337799072266
+    }
+  ],
+  "seconds": 26.17613196372986,
+  "success": true,
+  "scope_es": "Ejecución numérica; no validación física independiente.",
+  "scope_en": "Numerical execution; not independent physical validation."
+}
