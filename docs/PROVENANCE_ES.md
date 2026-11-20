@@ -6,4 +6,4 @@ El código y los insumos se importan de `general-relativity-and-inference`, comm
 
 Las entradas Cassini son matrices reconstruidas y una plantilla óptica heredadas. Su origen y condiciones se documentan en GRAVITAS; se conservan intactas. El perfil GP utiliza un estimando del benchmark previo, no costes de entrenamiento recuperados de INPOP. Los registros nuevos permiten distinguir importación de resultados y reejecución.
 
-Linux se verifica en esta entrega; los lanzadores Windows/macOS están preparados, pero no se afirma ejecución nativa en esos sistemas. La disponibilidad pública no concede licencias adicionales: véase LICENSES.md.
+Linux se verifica en esta entrega; los lanzadores Windows/macOS están preparados, pero no se afirma ejecución nativa en esos sistemas. Los materiales propios de FractalGo están bajo CC BY 4.0; los materiales de terceros conservan sus condiciones originales: véase LICENSES.md.

@@ -15,5 +15,7 @@
     "FractalGo"
   ],
   "upload_type": "software",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open"
 }

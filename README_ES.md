@@ -38,3 +38,5 @@ Versión 0.1.0. DOI de esta versión: [10.5281/zenodo.24383318](https://doi.org/
 [Abrir en Colab](https://colab.research.google.com/github/FacundoFirmenich/fractal-go/blob/Ulalito%27s-Island/FRACTALGO_ES.ipynb)
 
 FractalGo v0.1.0: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318) · Todas las versiones: [10.5281/zenodo.24383317](https://doi.org/10.5281/zenodo.24383317).
+
+Licencia: **[CC BY 4.0](LICENSES.md)** para los materiales propios; se conservan las condiciones de terceros.

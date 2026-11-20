@@ -3,7 +3,9 @@ import json,ast,base64,hashlib,zipfile,io,nbformat,subprocess,tempfile,sys
 R=Path(__file__).resolve().parents[1]
 checks={}
 ledger=json.loads((R/'provenance/IMPORTED_FILES.json').read_text())
-checks['imported_files_unchanged']=all(hashlib.sha256((R/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in ledger)
+amendment=json.loads((R/'provenance/LICENSE_AMENDMENT.json').read_text())
+checks['imported_nonlicense_files_unchanged']=all(hashlib.sha256((R/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in ledger if r['path']!='LICENSES.md')
+checks['license_amendment_traced']=amendment['path']=='LICENSES.md' and amendment['imported_sha256']==next(r['sha256'] for r in ledger if r['path']=='LICENSES.md') and amendment['current_sha256']==hashlib.sha256((R/'LICENSES.md').read_bytes()).hexdigest()
 run=json.loads((R/'records/execution_all.json').read_text());checks['reproduction_succeeded']=run['success'] and run['inputs_unchanged']
 checks['ui_bilingual']=len(json.loads((R/'records/ui_checks.json').read_text()))==10
 for lang in ['ES','EN']:
