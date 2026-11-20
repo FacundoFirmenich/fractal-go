@@ -4,5 +4,5 @@
   "ui_bilingual": true,
   "notebook_ES": true,
   "notebook_EN": true,
-  "no_fabricated_DOI": true
+  "verified_DOI_present": true
 }

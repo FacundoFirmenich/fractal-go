@@ -13,7 +13,7 @@ st.title('FractalGo')
 st.caption(T('ESTRUCTURA · OBSERVACIÓN · DIAGNÓSTICO','STRUCTURE · OBSERVATION · DIAGNOSIS'))
 st.write(T('Explorá qué cambia cuando conservamos las relaciones entre los datos.','Explore what changes when relationships between data are retained.'))
 page=st.sidebar.radio(T('Explorar','Explore'),[T('Laboratorio','Laboratory'),'GP','Cassini',T('Método y fuentes','Method and sources')])
-st.sidebar.caption(T('v0.1.0 · DOI pendiente','v0.1.0 · DOI pending'))
+st.sidebar.caption(T('v0.1.0 · DOI: 10.5281/zenodo.24383318','v0.1.0 · DOI: 10.5281/zenodo.24383318'))
 if page in ['Laboratorio','Laboratory']:
  st.subheader(T('Mismos valores, distinta conectividad','Same values, different connectivity'))
  z=st.slider(T('Amplitud del testigo sintético','Synthetic witness amplitude'),.1,4.,1.,.1)

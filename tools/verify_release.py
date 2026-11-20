@@ -21,7 +21,7 @@ for lang in ['ES','EN']:
    with tempfile.TemporaryDirectory() as d:
     z.extractall(d);r=subprocess.run([sys.executable,'run.py','test'],cwd=d,capture_output=True,text=True);assert r.returncode==0,r.stderr
  checks['notebook_'+lang]=True
-checks['no_fabricated_DOI']='doi:' not in (R/'CITATION.cff').read_text()
+checks['verified_DOI_present']='doi: "10.5281/zenodo.24383318"' in (R/'CITATION.cff').read_text()
 assert all(checks.values()),checks
 (R/'records/distribution_verification.json').write_text(json.dumps(checks,indent=2)+'\n')
 print(json.dumps(checks,indent=2))

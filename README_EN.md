@@ -31,8 +31,10 @@ Results are regenerated from bundled inputs; figures read those results. The Cas
 
 ## Status and citation
 
-Version 0.1.0. DOI assignment by the author is pending. `CITATION.cff` and `.zenodo.json` are prepared; no identifier is invented. [Relationship to GRAVITAS](docs/PROVENANCE_EN.md). Manuscripts and private assessments remain outside this repository.
+Version 0.1.0. Version DOI: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318). `CITATION.cff` and `.zenodo.json` are prepared; the record identifies this software version. [Relationship to GRAVITAS](docs/PROVENANCE_EN.md). Manuscripts and private assessments remain outside this repository.
 
 [Rights and provenance](LICENSES.md) · [Contributing](CONTRIBUTING_EN.md) · [Results and limitations](docs/RESULTS_EN.md)
 
 [Open in Colab](https://colab.research.google.com/github/FacundoFirmenich/fractal-go/blob/Ulalito%27s-Island/FRACTALGO_EN.ipynb)
+
+FractalGo v0.1.0: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318) · All versions: [10.5281/zenodo.24383317](https://doi.org/10.5281/zenodo.24383317).

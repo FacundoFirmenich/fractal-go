@@ -31,8 +31,10 @@ Los resultados se regeneran desde los insumos incluidos; las figuras leen esos r
 
 ## Estado y cita
 
-Versión 0.1.0. DOI pendiente de asignación por el autor. `CITATION.cff` y `.zenodo.json` están preparados; no se inventa un identificador. [Relación con GRAVITAS](docs/PROVENANCE_ES.md). Manuscritos y evaluaciones privadas quedan fuera de este repositorio.
+Versión 0.1.0. DOI de esta versión: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318). `CITATION.cff` y `.zenodo.json` están preparados; el registro identifica esta versión del software. [Relación con GRAVITAS](docs/PROVENANCE_ES.md). Manuscritos y evaluaciones privadas quedan fuera de este repositorio.
 
 [Licencias y procedencia](LICENSES.md) · [Contribuir](CONTRIBUTING_ES.md) · [Resultados y límites](docs/RESULTS_ES.md)
 
 [Abrir en Colab](https://colab.research.google.com/github/FacundoFirmenich/fractal-go/blob/Ulalito%27s-Island/FRACTALGO_ES.ipynb)
+
+FractalGo v0.1.0: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318) · Todas las versiones: [10.5281/zenodo.24383317](https://doi.org/10.5281/zenodo.24383317).
