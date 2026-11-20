@@ -5,3 +5,5 @@ El grafo G se declara antes de comparar realizaciones. Para costes q y masas pre
 El umbral es estricto. Una excursión vacía tiene cero componentes. Las masas de celda trapezoidales no se confunden con una integración exacta continua. Se conservan IDs y huecos temporales; no hay captura o eliminación de nodos como regla de Go. Ningún descriptor derivado se multiplica como likelihood independiente sobre los mismos datos.
 
 En Cassini se construyen aristas sólo dentro de una pasada y con separación ≤ dos veces su cadencia mediana. Las excursiones positivas y negativas se examinan por separado. Los conteos predictivos no son valores-p uniformemente calibrados; la elección de modelos y umbrales es exploratoria. El núcleo implementado se separa de futuras extensiones de persistencia, triangulación o multifractalidad.
+
+Software y versión citada: [FractalGo v0.1.0](https://doi.org/10.5281/zenodo.24383318) · [Todas las versiones](https://doi.org/10.5281/zenodo.24383317).

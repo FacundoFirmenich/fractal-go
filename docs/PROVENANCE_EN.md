@@ -7,3 +7,5 @@ Code and inputs originate from `general-relativity-and-inference`, commit `e8865
 Cassini inputs are inherited reconstructed matrices and an optical template. Their origin and conditions are documented in GRAVITAS; they are retained unchanged. The GP profile uses an estimate from an earlier benchmark, not recovered INPOP training costs. New records distinguish importing results from rerunning them.
 
 Linux is checked for this delivery; Windows/macOS launchers are prepared but native execution on those systems is not claimed. Author-owned FractalGo materials are licensed under CC BY 4.0; third-party materials retain their original terms: see LICENSES.md.
+
+Software and cited version: [FractalGo v0.1.0](https://doi.org/10.5281/zenodo.24383318) · [All versions](https://doi.org/10.5281/zenodo.24383317).
